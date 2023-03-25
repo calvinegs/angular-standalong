@@ -7,7 +7,7 @@ import { ContainerLayoutComponent } from './components/container-layout.componen
 
 @NgModule({
   declarations: [
-    AppComponent
+    // AppComponent
   ],
   imports: [
     BrowserModule,
@@ -15,6 +15,6 @@ import { ContainerLayoutComponent } from './components/container-layout.componen
     ContainerLayoutComponent
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: []
 })
 export class AppModule { }
